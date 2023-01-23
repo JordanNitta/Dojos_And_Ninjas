@@ -42,7 +42,7 @@ class Dojo:
         """
         results = connectToMySQL(DATABASE).query_db(query, data)
         dojo = Dojo(results[0]) #Taking first dictionary and making a dojo out of it
-        pprint(results)
+        print(results)
         for row in results:
             ninja_data = {
                 "id":row["ninjas.id"],

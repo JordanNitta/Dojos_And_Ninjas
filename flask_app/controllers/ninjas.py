@@ -1,5 +1,4 @@
 from flask_app import app, render_template, request, redirect, session
-from flask_app import app
 from flask_app.models.ninja import Ninja
 from flask_app.models.dojo import Dojo 
 
